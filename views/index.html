@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8"/>
+		<link rel="stylesheet" type="text/css" href="style.css"/>
+		  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+		  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		  <link rel='shortcut icon' href='favicon.ico' type='image/x-icon'/ >
+		<title>Twitter Game</title>
+
+	</head>
+
+	<body>
+
+	<nav class="navbar navbar-default">
+	  <div class="container">
+	    <div class="navbar-header">
+	      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>                        
+	      </button>
+	      <a class="navbar-brand" href="cover.html">HOME</a>
+	    </div>
+	    <div class="collapse navbar-collapse" id="myNavbar">
+	      <ul class="nav navbar-nav navbar-right">
+	        <li><a class = "navbar-brand-leader" href="leader.html">LEADERBOARD</a></li>
+	        <li><a class = "navbar-brand-api" href="#">API</a></li>
+	        <li><a class = "navbar-brand-about" href="about.html">ABOUT</a></li>
+	        
+	      </ul>
+	    </div>
+	  </div>
+	</nav>
+<!-- 		<div id = "clock"><h6>Waiting for clock...</h6></div>
+ -->
+		<div class = "tweetContiner">
+
+			<div><h6 id="t0" class="tweetClass">Waiting for tweet...</h6></div>
+			<div><h6 id="t1" class="tweetClass">Waiting for tweet...</h6></div>
+			<div><h6 id="t2" class="tweetClass">Waiting for tweet...</h6></div>
+			<div><h6 id="t3" class="tweetClass">Waiting for tweet...</h6></div>
+			<div><h6 id="t4" class="tweetClass">Waiting for tweet...</h6></div>
+			<div><h6 id="t5" class="tweetClass">Waiting for tweet...</h6></div>
+			<div><h6 id="t6" class="tweetClass">Waiting for tweet...</h6></div>
+
+		</div>
+
+
+		<br>
+
+		<div class = "nameContainer">
+
+			<div><h6 id="n0" class="nameClass">Waiting for name...</h6></div>
+			<div><h6 id="n1" class="nameClass">Waiting for name...</h6></div>
+			<div><h6 id="n2" class="nameClass">Waiting for name...</h6></div>
+			<div><h6 id="n3" class="nameClass">Waiting for name...</h6></div>
+			<div><h6 id="n4" class="nameClass">Waiting for name...</h6></div>
+			<div><h6 id="n5" class="nameClass">Waiting for name...</h6></div>
+			<div><h6 id="n6" class="nameClass">Waiting for name...</h6></div>
+
+		</div>
+
+		<br>
+		</div>
+
+
+
+<!-- Making form here to submit highscore -->
+		<div id="game-done-container">
+			<h3 id='mainTitle'>Score!</h3>
+			<h2>Congrats! You scored <span id="game-score"></span>.</h2>
+		 	<h2>Submit your name and score on the Leaderboard</h2>
+			<hr>
+			<input id="name" name="name" placeholder="Name" type="text" value="Reset" >
+			<button id="enterButton" >Enter</button>
+		</div>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+		<script type="text/javascript" src="main.js"></script>
+		<script type="text/javascript" src="bootstrap.js"></script>
+	</body>
+</html>

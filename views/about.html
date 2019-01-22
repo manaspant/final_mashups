@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8"/>
+		<link rel="stylesheet" type="text/css" href="style.css"/>
+		  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+		  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		  <link rel='shortcut icon' href='favicon.ico' type='image/x-icon'/ >
+		<title>Twitter Game</title>
+		<style type="text/css">
+    body {
+      font: 20px Montserrat, sans-serif;
+      line-height: 1.8;
+      background-color: #4099FF;
+  }
+  p {font-size: 16px;}
+  .margin {margin-bottom: 45px;}
+
+  .navbar-nav  li a:hover {
+      color: #1abc9c !important;
+  }
+  </style>
+	</head>
+
+	<body>
+
+	<nav class="navbar navbar-default">
+	  <div class="container">
+	    <div class="navbar-header">
+	      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>                        
+	      </button>
+	      <a class="navbar-brand" href="cover.html">HOME</a>
+	    </div>
+	    <div class="collapse navbar-collapse" id="myNavbar">
+	      <ul class="nav navbar-nav navbar-right">
+	        <li><a class = "navbar-brand-leader" href="leader.html">LEADERBOARD</a></li>
+	        <li><a class = "navbar-brand-api" href="#">API</a></li>
+	        <li><a class = "navbar-brand-about" href="about.html">ABOUT</a></li>
+	      </ul>
+	    </div>
+	  </div>
+	</nav> 
+
+	<p>
+		<b>What I did?</b>
+		<br><br>
+		I made a game using the Twitter API. The user is supposed to play a game where he gets a few tweets from the twitter accounts of the most popular music celebrities (based on the number of followers). The user will also get the names of all the celebrities whose tweets I am using in a random order. In order to match the tweet to the celebrity, the player will have to click on the tweet or the name first, which will get selected. After that the player will have to click the other option which would depend on what was clicked first. If the answer is correct, both the options would flash green for 1.5 seconds and then dissapear. If the answer is incorrect then the two options will flash red and then they will go back to their original coor. 
+	</p>
+	<p>
+		<b>Why I did it?</b>
+		<br><br>
+		Coming up with the idea of the project has always been the hardest part of the process for me. I spent a lot of time trying to look for ideas. I also changed my ideas again and again. Finally I decided to make a game about matching the tweets. A huge reason that I did this was that I wanted to do something challenging for my last project.
+	</p>
+	<p>
+		<b>How I did it?</b>
+		<br><br>
+		Initially I had no idea how I am supposed to start working on this as I had never made an online game before. So I started working with Craig's sample code to get tweets via the server. The first thing that I did was to modify the maketwittersearch function so that I could get the tweets from different users instead of just one. After I got that done I worked I worked on the logic of the game which involved setting up the mechanism for selecting different options and checking if the answer is correct. Next came the score keeping. 
+		After the game finished the user had to enter their name that would get stored in a databse and be displayed in the leaderboard. 
+	</p>
+	<p>
+		<b>Challenges faced</b>
+		<br><br>
+		The first challenge I faced was in modyfing the twittersearch function as initially it could only get the tweets from a single user. Another challenge for me was making the user interface clear and simple for the user. I underestimated the time that I would need to improve the page layout and make the game user friendly. During the exhibition, I got good feedback watching the uders play the game, and I hope to incorporate some changes based on those observations. 
+	</p>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+		<script type="text/javascript" src="main.js"></script>
+		<script type="text/javascript" src="bootstrap.js"></script>
+	</body>
+</html>

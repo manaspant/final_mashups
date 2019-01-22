@@ -1,0 +1,45 @@
+body{
+	font-family: 'Arial';
+	font-size: 30px;
+	margin: 0;
+	background-color: #1dcaff;
+
+}
+
+.tweetClass {
+  transition: background-color 0.5s ease;
+  background-color: #4099FF;
+  border:1px solid;
+  border-radius:5px;
+  width: 100%;
+  color: black;
+  margin: 0 2px 0 2px;
+}
+/*.tweetClass:hover {
+  background-color: #66B3FF;
+
+}*/
+
+.color {
+    background-color: yellow;
+}
+
+.color2 {
+    background-color: blue;
+}
+
+// Classes
+.pull-left {
+  float: left !important;
+}
+.pull-right {
+  float: right !important;
+}
+
+// Usage as mixins
+.element {
+  .pull-left();
+}
+.another-element {
+  .pull-right();
+}

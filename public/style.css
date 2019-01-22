@@ -1,0 +1,136 @@
+body{
+	font-family: 'Arial';
+	font-size: 30px;
+	margin: 0;
+	background-color: grey;
+  font: 30px Montserrat, sans-serif;
+  line-height: 1.8;
+  color: #f5f6f7;
+
+}
+
+html, body { 
+  color: #fff;
+  height: 100%;
+}
+
+p {font-size: 25px;}
+.margin {margin-bottom: 45px;}
+.bg-1 { 
+    background-color: #4099FF; /* Green */
+    color: #ffffff;
+}
+.bg-2 { 
+    background-color: #4099FF; /* Dark Blue */
+    color: #ffffff;
+}
+.bg-3 { 
+    background-color: #4099FF; /* White */
+    color: #555555;
+}
+.bg-4 { 
+    background-color: #4099FF; /* Black Gray */
+    color: #fff;
+}
+.container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+}
+.navbar-nav  li a:hover {
+    color: #1abc9c !important;
+}
+
+.tweetClass {
+  height:50%;
+  transition: background-color 0.5s ease;
+/*  border:0.25px solid;
+*/  width: 50%;
+  color: black;
+  float: left;
+  padding-left: 0px;
+  margin: 0 2px 0 2px;
+  margin-left: 10px;
+}
+
+.nameClass {
+  height:50%;
+  transition: background-color 0.5s ease;
+/*  border:0.25px solid;
+*/  width: 50%;
+  color: black;
+  padding-right: 0px;
+  margin: 0 2px 0 2px;
+}
+
+
+.tweetContiner {
+  position:absolute;
+  background: linear-gradient(
+    to right, 
+    #4099FF 0%, 
+    #4099FF 50%, 
+    #6666FF 50%, 
+    #6666FF 50%
+  );
+  height: 100%;
+  border:0.25px solid;
+
+  margin: 0 2px 0 2px;
+
+}
+
+.nameContainer {
+  position:absolute;
+  height:100%;
+  color: black;
+  float: right;
+  width: 50%;
+  right: 0px;
+  top: 102px;
+  margin: 0 2px 0 2px;
+  border:0.25px solid;
+
+}
+
+
+.color {
+    background-color: yellow;
+}
+
+.color2 {
+    background-color: yellow;
+}
+
+/*.tweetClass:hover {
+  background-color: #66B3FF;
+
+}*/
+
+
+#divtobBlink{
+    background-color: red;
+}
+
+#game-done-container{
+  display: none;
+}
+
+.tweetClass {
+    cursor: pointer; cursor: hand;
+    font-size: 20px; 
+}
+
+.nameClass {
+    cursor: pointer; cursor: hand; 
+    font-size: 20px; 
+}
+
